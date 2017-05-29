@@ -58,7 +58,8 @@ resetButton.addEventListener("click", function() {
 	}
 
 	//change h1 back
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "steelblue";
+	resetButton.textContent = "New Colors";
 });
 
 colorDisplay.textContent = pickedColor;
