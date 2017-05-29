@@ -146,5 +146,4 @@ function reset() {
 			squares[i].style.display = "none";
 		}
 	}
-
 }
